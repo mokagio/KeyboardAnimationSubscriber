@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3FCD1F2A1C77154400001637 /* KeyboardAnimationSubscriber.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FCD1F291C77154400001637 /* KeyboardAnimationSubscriber.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3FCD1F311C77154400001637 /* KeyboardAnimationSubscriber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCD1F261C77154400001637 /* KeyboardAnimationSubscriber.framework */; };
+		3FCD1F771C77188800001637 /* UIViewAnimationOptions+UIViewAnimationCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCD1F761C77188800001637 /* UIViewAnimationOptions+UIViewAnimationCurve.swift */; };
+		3FCD1F791C7718CB00001637 /* UIViewAnimationOptions+UIViewAnimationCurveSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCD1F781C7718CB00001637 /* UIViewAnimationOptions+UIViewAnimationCurveSpec.swift */; };
 		3FCD1F7A1C771ACB00001637 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCD1F4B1C77180B00001637 /* Nimble.framework */; };
 		3FCD1F7B1C771ACB00001637 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCD1F691C77181700001637 /* Quick.framework */; };
 /* End PBXBuildFile section */
@@ -136,6 +138,8 @@
 		3FCD1F371C77154400001637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FCD1F411C77180B00001637 /* Nimble.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Nimble.xcodeproj; path = Carthage/Checkouts/Nimble/Nimble.xcodeproj; sourceTree = SOURCE_ROOT; };
 		3FCD1F561C77181700001637 /* Quick.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Quick.xcodeproj; path = Carthage/Checkouts/Quick/Quick.xcodeproj; sourceTree = SOURCE_ROOT; };
+		3FCD1F761C77188800001637 /* UIViewAnimationOptions+UIViewAnimationCurve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewAnimationOptions+UIViewAnimationCurve.swift"; sourceTree = "<group>"; };
+		3FCD1F781C7718CB00001637 /* UIViewAnimationOptions+UIViewAnimationCurveSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewAnimationOptions+UIViewAnimationCurveSpec.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +189,7 @@
 			children = (
 				3FCD1F291C77154400001637 /* KeyboardAnimationSubscriber.h */,
 				3FCD1F2B1C77154400001637 /* Info.plist */,
+				3FCD1F761C77188800001637 /* UIViewAnimationOptions+UIViewAnimationCurve.swift */,
 			);
 			path = KeyboardAnimationSubscriber;
 			sourceTree = "<group>";
@@ -481,6 +486,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCD1F771C77188800001637 /* UIViewAnimationOptions+UIViewAnimationCurve.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +494,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCD1F791C7718CB00001637 /* UIViewAnimationOptions+UIViewAnimationCurveSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
