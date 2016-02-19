@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -eo pipefail
+
 xcrun xcodebuild \
   -project KeyboardAnimationSubscriber.xcodeproj \
   -scheme KeyboardAnimationSubscriber \
