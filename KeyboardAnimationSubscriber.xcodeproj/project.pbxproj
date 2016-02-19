@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3F786EAC1C772C0E00700AFA /* NSNotificatio+TestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F786EAB1C772C0E00700AFA /* NSNotificatio+TestUtils.swift */; };
+		3F85CBF81C77312900BE4AD5 /* KeyboardAnimationSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85CBF71C77312900BE4AD5 /* KeyboardAnimationSubscriber.swift */; };
+		3F85CC091C77317700BE4AD5 /* KeyboardAnimationSubscriberSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85CC081C77317700BE4AD5 /* KeyboardAnimationSubscriberSpec.swift */; };
 		3F8E96A11C7728AB00F6F910 /* NSNotification+KeyboardAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E96A01C7728AB00F6F910 /* NSNotification+KeyboardAnimation.swift */; };
 		3F8E96A31C7728D100F6F910 /* NSNotification+KeyboardAnimationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E96A21C7728D100F6F910 /* NSNotification+KeyboardAnimationSpec.swift */; };
 		3FCD1F2A1C77154400001637 /* KeyboardAnimationSubscriber.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FCD1F291C77154400001637 /* KeyboardAnimationSubscriber.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -135,6 +137,8 @@
 
 /* Begin PBXFileReference section */
 		3F786EAB1C772C0E00700AFA /* NSNotificatio+TestUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSNotificatio+TestUtils.swift"; sourceTree = "<group>"; };
+		3F85CBF71C77312900BE4AD5 /* KeyboardAnimationSubscriber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardAnimationSubscriber.swift; sourceTree = "<group>"; };
+		3F85CC081C77317700BE4AD5 /* KeyboardAnimationSubscriberSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardAnimationSubscriberSpec.swift; sourceTree = "<group>"; };
 		3F8E96A01C7728AB00F6F910 /* NSNotification+KeyboardAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSNotification+KeyboardAnimation.swift"; sourceTree = "<group>"; };
 		3F8E96A21C7728D100F6F910 /* NSNotification+KeyboardAnimationSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSNotification+KeyboardAnimationSpec.swift"; sourceTree = "<group>"; };
 		3FCD1F261C77154400001637 /* KeyboardAnimationSubscriber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeyboardAnimationSubscriber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -197,6 +201,7 @@
 				3FCD1F2B1C77154400001637 /* Info.plist */,
 				3FCD1F761C77188800001637 /* UIViewAnimationOptions+UIViewAnimationCurve.swift */,
 				3F8E96A01C7728AB00F6F910 /* NSNotification+KeyboardAnimation.swift */,
+				3F85CBF71C77312900BE4AD5 /* KeyboardAnimationSubscriber.swift */,
 			);
 			path = KeyboardAnimationSubscriber;
 			sourceTree = "<group>";
@@ -209,6 +214,7 @@
 				3FCD1F781C7718CB00001637 /* UIViewAnimationOptions+UIViewAnimationCurveSpec.swift */,
 				3F8E96A21C7728D100F6F910 /* NSNotification+KeyboardAnimationSpec.swift */,
 				3F786EAB1C772C0E00700AFA /* NSNotificatio+TestUtils.swift */,
+				3F85CC081C77317700BE4AD5 /* KeyboardAnimationSubscriberSpec.swift */,
 			);
 			path = KeyboardAnimationSubscriberTests;
 			sourceTree = "<group>";
@@ -496,6 +502,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FCD1F771C77188800001637 /* UIViewAnimationOptions+UIViewAnimationCurve.swift in Sources */,
+				3F85CBF81C77312900BE4AD5 /* KeyboardAnimationSubscriber.swift in Sources */,
 				3F8E96A11C7728AB00F6F910 /* NSNotification+KeyboardAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -504,6 +511,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F85CC091C77317700BE4AD5 /* KeyboardAnimationSubscriberSpec.swift in Sources */,
 				3F8E96A31C7728D100F6F910 /* NSNotification+KeyboardAnimationSpec.swift in Sources */,
 				3FCD1F791C7718CB00001637 /* UIViewAnimationOptions+UIViewAnimationCurveSpec.swift in Sources */,
 				3F786EAC1C772C0E00700AFA /* NSNotificatio+TestUtils.swift in Sources */,
