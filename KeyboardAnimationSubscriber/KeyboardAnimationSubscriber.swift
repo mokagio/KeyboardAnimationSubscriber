@@ -8,9 +8,9 @@
 
 import UIKit
 
-class KeyboardAnimationSubscriber {
+public class KeyboardAnimationSubscriber {
 
-    typealias KeyboardAnimationAction = (
+    public typealias KeyboardAnimationAction = (
         duration: NSTimeInterval,
         keyboardHeight: CGFloat,
         animationOptionCurve: UIViewAnimationOptions
@@ -21,7 +21,7 @@ class KeyboardAnimationSubscriber {
 
     let notificationCenter: NSNotificationCenter
 
-    init(
+    public init(
         willShowAction: KeyboardAnimationAction?,
         willHideAction: KeyboardAnimationAction?,
         notificationCenter: NSNotificationCenter = NSNotificationCenter.defaultCenter()
